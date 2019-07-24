@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server",
+    "server": "nodemon server || true",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.1",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.18.2-alpha.1"
   }
 }
