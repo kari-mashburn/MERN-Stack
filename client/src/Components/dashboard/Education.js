@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Moment from 'react-moment';
 import moment from 'moment';
 import { connect } from 'react-redux';
-// import { deleteEducation } from '../../actions/profile';
+import { deleteEducation } from '../../actions/profile';
 
 const Education = ({ education, deleteEducation }) => {
   const educations = education.map(edu => (
@@ -53,6 +53,6 @@ Education.propTypes = {
 };
 
 export default connect(
-//   null,
-//   { deleteEducation }
+  null,
+  { deleteEducation }
 )(Education);
