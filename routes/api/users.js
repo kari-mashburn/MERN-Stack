@@ -44,7 +44,7 @@ router.post(
         s: '200',
         r: 'pg',
         d: 'mm'
-      });
+      }).substr(2);
 
       user = new User({
         name,
