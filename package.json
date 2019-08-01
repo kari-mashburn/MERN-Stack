@@ -1,6 +1,9 @@
 {
   "name": "mern-stack",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.5.0"
+  },
   "description": "social network for developers",
   "main": "server.js",
   "scripts": {
